@@ -1,6 +1,6 @@
 # Fast Python Port Scanner
 
-A simple and fast TCP port scanner written in Python. This script allows you to scan a range of ports on a target IP address to identify open ports and their associated services.
+A simple and fast python TCP port scanner. This script allows you to scan a range of ports on a target IP address to identify open ports and their associated services.
 
 ## Features
 
