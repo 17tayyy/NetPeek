@@ -18,7 +18,7 @@ def print_header():
  / /|  /  __/ /_/ ____/  __/  __/ ,<   
 /_/ |_/\___/\__/_/    \___/\___/_/|_|  
                                        
-    Fast Python Port Scanner
+    Fast Python TCP Port Scanner
     by tay
     """
     print(colored(ascii_header, 'cyan'))
@@ -99,7 +99,7 @@ def save_results(output_file, results):
             with open(output_file, 'w') as f:
                 for line in results:
                     f.write(line + '\n')
-            print(colored(f"\n[+] Saved results in: {output_file}", 'yellow'))
+            print(colored(f"\n[+] Results saved in: {output_file}", 'yellow'))
         except Exception as e:
             print(colored(f"[!] The file can't be saved: {e}", 'red'))
 
